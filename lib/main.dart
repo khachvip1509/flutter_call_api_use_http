@@ -61,7 +61,7 @@ class _ListViewPageState extends State<ListViewPage>{
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("${postData[index].title}",style: TextStyle(fontSize: 16, color: Colors.black45),),
+                        Text("${postData[index].id}. ${postData[index].title}",style: TextStyle(fontSize: 16, color: Colors.black45),),
                         SizedBox(height: 5),
                         Text("${postData[index].body}", style: TextStyle(fontSize: 14, color: Colors.green),)
                       ],
